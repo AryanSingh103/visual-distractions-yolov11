@@ -1,0 +1,24 @@
+# YOLOv11 Dataset Config — Visual Distractions at Railroad Grade Crossings
+# Summer 2026 | MBS Externship
+#
+# UPDATE `path` before training to point to your Sum26 datasets folder in Drive.
+# Example path when Drive is mounted in Colab:
+#   /content/drive/MyDrive/Sum26_VisualDist_Extern/Visual_Distractions_YOLOv11/datasets
+#
+# Run scripts/split_dataset.py first if datasets/ doesn't exist yet.
+
+path: /content/drive/MyDrive/Sum26_VisualDist_Extern/Visual_Distractions_YOLOv11/datasets
+
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 5
+
+# Class names — order must match the label files from F25
+names:
+  0: tree
+  1: pole
+  2: building
+  3: billboard
+  4: sign
