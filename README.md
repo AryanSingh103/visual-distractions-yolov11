@@ -1,6 +1,6 @@
 # Visual Distractions at Railroad Grade Crossings — YOLOv11
 
-**Rutgers MBS Externship | Collaborative Solutions | Summer 2026**
+**MBS Externship | Collaborative Solutions | Summer 2026**
 
 Detects visual distractions at railroad grade crossings using Google Street View imagery and a custom-trained YOLOv11 model. Produces a risk score per crossing based on the density and type of detected objects.
 
